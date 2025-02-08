@@ -4,7 +4,7 @@ After the passage of Chido Cyclone over Mayotte, 51 out of 54 mobile network ant
 
 Disaster Networks are communication infrastructures or systems designed to ensure connectivity and critical communications during emergency situations or natural, technological, or human-made disasters. These networks play a vital role in coordinating rescue operations, alerting populations, and restoring communications in heavily disrupted environments.
 
-In this project, you will implement and compare two mesh network technologies with [LoRa endpoints](matos.md):
+In this project, you will implement and compare two mesh network technologies with [LoRa endpoints](matos.md) (433 MHz, 868 MHz and 2.4 GHz):
 
 * [ClusterDuck protocol](https://clusterduckprotocol.org/)
 * [Meshtastic protocol](https://meshtastic.org/)

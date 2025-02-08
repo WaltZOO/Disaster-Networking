@@ -4,7 +4,7 @@ Après le passage du cyclone Chido sur Mayotte, les 51 antennes sur 54 du résea
 
 Les Disaster Networks (ou réseaux de communication en cas de catastrophe) sont des infrastructures ou systèmes de communication conçus pour assurer la connectivité et les communications critiques lors de situations d’urgence ou de catastrophes naturelles, technologiques ou humaines. Ces réseaux jouent un rôle vital dans la coordination des secours, l’alerte des populations et le rétablissement des communications dans des environnements fortement perturbés.
 
-Dans ce projet, vous mettrez en oeuvre et vous comparerez 2 technologies de réseaux maillés avec des [endpoints LoRa](matos.md) :
+Dans ce projet, vous mettrez en oeuvre et vous comparerez 2 technologies de réseaux maillés avec des [endpoints LoRa](matos.md) (433 MHz, 868 MHz et 2.4 GHz):
 
 * le protocole [ClusterDuck](https://clusterduckprotocol.org/)
 * le protocole [Meshtastic](https://meshtastic.org/)
