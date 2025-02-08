@@ -1,4 +1,4 @@
-# Réseau de catastrophe (disaster network) avec LoRa
+# Projet 18 - Réseau de catastrophe (disaster network) avec LoRa
 
 Après le passage du cyclone Chido sur Mayotte, les 51 antennes sur 54 du réseau mobile ont été rendues hors service, notamment faute de courant, privant ainsi les autorités et la population de communiquer pour organiser les secours.
 
@@ -18,3 +18,6 @@ Vos développements pourront être contribués à ces deux communautés oepn-sou
 Des tests seront réalisés au moyen de ballons captifs gonflés à l'hélium sur le campus de SMH au printemps 2025.
 
 Des tests pourront être également réalisés à bord de ballons stratosphériques du CNES au Printemps 2025 : https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/blob/master/balloons/README.md 
+
+
+![Infra 4G de Mayotte](https://air.imag.fr/images/4/42/Cartoradio-mayotte-01.jpg)
