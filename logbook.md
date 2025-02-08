@@ -1,0 +1,63 @@
+# Projet 18 Disaster Network :: Journal de bord (aka fiche de suivi)
+
+## 2024-02-17
+
+A faire
+
+## 2024-02-10
+
+A faire
+
+* [ ] rédiger le [who is who](./whoiswho.md) (et les rôles)
+* [ ] rédiger un pacte d'équipe (~pacte d'associé)
+* [ ] rédiger le cahier des charges (markdown bien sur) avec les diagrammes
+* [ ] faire le [point matériel récupéré](./matos.md) au fablab (emprunt depuis https://matos.univ-grenoble-alpes.fr/#
+* [ ] créer une structure arborescente de dossiers pour organiser le dépôt
+
+Exemple de structure arborescente
+* [./README.md](./README.md) --> un description et des liens pour naviguer dans la structure
+* [./logbook.md](./logbook.md)
+* [./whoiswho.md](./whoiswho.md)
+* [./CONTRIBUTORS.md](./CONTRIBUTORS.md)
+* [./pacte.md](./pacte.md)
+* [./matos.md](./matos.md)
+* [./LICENSE.md](./LICENSE.md)
+* ./presentations
+* ./presentations/README.md
+* ./presentations/2024-02-10/
+* ./presentations/2024-02-17/
+* ./presentations/2024-03-XX_mid-project/
+* ./presentations/2024-04-XX_final/
+* ./reports
+* ./reports/bib.tex
+* ./reports/bib.md
+* ./docs
+* ./docs/user
+* ./docs/admin
+* ./media
+* ./externals
+* ./sandbox
+
+**Instructions et bonnes pratiques**
+
+* utilisez Markdown :  Rien d'autres n'est accepté
+* utilisez [PlantUML](https://github.com/donsez/bd/tree/main/plantuml#readme) pour les diagrammes :  Rien d'autres n'est accepté (ie éditeurs en ligne and co)
+* préférez SVG pour les schémas vectoriels à PNG et JPEG (pire HEIC)
+* PDF, DOCX, PPT, ODT, ODP proscrits (sinon `git rm *.pdf, *.pptx *.docx ...`)
+* utilisez Markdown et [reveal.js](https://github.com/webpro/reveal-md) pour vos présentations (dans un dossier dans le dossier `./presentations`)
+* pour les thèmes dans les slides, pensez aux daltoniens (le [NB](https://fr.wikipedia.org/wiki/Bienvenue_%C3%A0_Gattaca) est indémodable)
+* tout ce qui n'est pas écrit n'a pas été fait
+* tout ce qui temporaire est définitif (on nettoiera plus tard, vite fait ...)
+* plus tard == jamais
+* redigez plutôt en anglais --> vos projets seront visibles de vos employeurs, vos maîtres de stage ...
+* docker, docker, docker
+* git, git, git
+* dans vos interactions orales (présentations, clients) : évitez wesh wesh, vite fait, rapide, carré ... vous n'êtes pas sur la scène RAP française !
+* [intelligence contextuelle](https://www.wikiberal.org/wiki/Intelligence_contextuelle)
+* [Pandoc](https://pandoc.org/) est votre ami
+
+## 2024-02-03
+
+A compléter
+
+
