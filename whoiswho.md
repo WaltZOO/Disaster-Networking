@@ -2,6 +2,7 @@
 
 ## Tutor(s)
 * Didier DONSEZ
+* Sébastien JEAN (IUT de Valence, LCIS, CSUG)
 
 
 ## Students
