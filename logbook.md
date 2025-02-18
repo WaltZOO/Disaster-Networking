@@ -16,11 +16,13 @@ A faire
 
 A faire
 
+* [ ] aller emprunter le [WM1110](https://meshtastic.org/docs/hardware/devices/seeed-studio/wm1110/) au fablab.
+
 ## 2024-02-18
 
 A faire
 
-## 2024-02-18
+## 2024-02-17
 
 A faire
 
