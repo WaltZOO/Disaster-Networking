@@ -17,6 +17,14 @@ A faire
 A faire
 
 * [ ] aller emprunter le [WM1110](https://meshtastic.org/docs/hardware/devices/seeed-studio/wm1110/) au fablab.
+* [ ] aller emprunter le SenseCAP T1000 au fablab.
+
+## 2024-02-20
+
+* [ ] DD --> Team : à lire : [How SenseCAP T1000-E Becomes a Game-Changing Dog Tracker](https://www.etsy.com/fr/listing/1867271135/houdini-m1-traceur-de-chien-open-source?etsrc=sdt)
+ 
+In the video, Data Slayer showcases the Houdini M1 Dog tracker, a DIY solution designed with SenseCAP T1000-E. It's open-source and free from subscriptions. In a personal story, he shares how losing a dog in the wild led him to create this tracker. Unlike AirTag or GPS collars, the Houdini M1 uses Meshtastic technology for real-time, decentralized tracking—perfect for off-grid adventures. Get your T1000-E on [Seeed's official store](https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html) or Amazon here(10% off coupon code RWL5D6ZS).
+
 
 ## 2024-02-18
 
