@@ -2,10 +2,10 @@
 
 Consigne: cochez ce que vous avez emprunté
 
-* [ ] Cartes Wyres
-* [ ] Cartes LoRa E5 Dev + Mini
+* [x] Cartes Wyres
+* [x] Cartes LoRa E5 Dev + Mini (not the mini)
 * [ ] Cartes Semtech LoRaMote
-* [ ] Cartes T-BEAM Supreme
+* [x] Cartes T-BEAM Supreme
 * [ ] [TinyGS 2G4 + ESP32 Dev Kit](https://github.com/thingsat/tinygs_2g4station) + Carte Wyres
 * [ ] [TinyGS 2G4 + ESP32 Dev Kit](https://github.com/thingsat/tinygs_2g4station) + Carte LoRa E5 Grove
 * [ ] [TinyGS 2G4 + ESP32 Dev Kit](https://github.com/thingsat/tinygs_2g4station) + Carte LoRa 2.4 GHz x2
