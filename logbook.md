@@ -1,47 +1,43 @@
 # Projet 18 Disaster Network :: Journal de bord (aka fiche de suivi)
 
-## 2024-03-11
+## 2025-03-11
 
 A faire
 
-## 2024-03-10
+## 2025-03-10
 
 A faire
 
-## 2024-02-25
+## 2025-02-25
 
 A faire
 
-## 2024-02-24
+## 2025-02-24
 
-A faire
+Finition du cahier des charges.
 
 * [ ] aller emprunter le [WM1110](https://meshtastic.org/docs/hardware/devices/seeed-studio/wm1110/) au fablab.
 * [ ] aller emprunter le SenseCAP T1000 au fablab.
 
-## 2024-02-20
+## 2025-02-20
 
 * [ ] DD --> Team : à lire : [How SenseCAP T1000-E Becomes a Game-Changing Dog Tracker](https://www.etsy.com/fr/listing/1867271135/houdini-m1-traceur-de-chien-open-source?etsrc=sdt)
  
 In the video, Data Slayer showcases the Houdini M1 Dog tracker, a DIY solution designed with SenseCAP T1000-E. It's open-source and free from subscriptions. In a personal story, he shares how losing a dog in the wild led him to create this tracker. Unlike AirTag or GPS collars, the Houdini M1 uses Meshtastic technology for real-time, decentralized tracking—perfect for off-grid adventures. Get your T1000-E on [Seeed's official store](https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html) or Amazon here(10% off coupon code RWL5D6ZS).
 
 
-## 2024-02-18
+## 2025-02-18
 
-A faire
+Commencement du cahier des charges.
 
-## 2024-02-17
+## 2025-02-10
 
-A faire
-
-## 2024-02-10
-
-A faire
+Reunion Gestion de Projet pour mieux definir le livrable. 
 
 * [ ] rédiger le [who is who](./whoiswho.md) (et les rôles)
 * [ ] rédiger un pacte d'équipe (~pacte d'associé)
-* [ ] rédiger le cahier des charges (markdown bien sur) avec les diagrammes
-* [ ] faire le [point matériel récupéré](./matos.md) au fablab (emprunt depuis https://matos.univ-grenoble-alpes.fr/#
+* [x] rédiger le cahier des charges (markdown bien sur) avec les diagrammes
+* [x] faire le [point matériel récupéré](./matos.md) au fablab (emprunt depuis https://matos.univ-grenoble-alpes.fr/#
 * [ ] créer une structure arborescente de dossiers pour organiser le dépôt
 
 Exemple de structure arborescente
@@ -86,8 +82,8 @@ Exemple de structure arborescente
 * [intelligence contextuelle](https://www.wikiberal.org/wiki/Intelligence_contextuelle)
 * [Pandoc](https://pandoc.org/) est votre ami
 
-## 2024-02-03
+## 2025-02-03
 
-A compléter
+Prise de connaissance du sujet. Documentation sur Meshtastic et Clusterduck
 
 
