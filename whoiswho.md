@@ -7,7 +7,10 @@
 
 ## Students
 
-Maxence Maury, Maxime Bossant, Erwan Poncin et Antonia Ivanova 
+* Maxence Maury
+* Maxime Bossant
+* Erwan Poncin
+* Antonia Ivanova 
 
 ### INFO4 2024-2025
 
