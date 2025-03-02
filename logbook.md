@@ -8,16 +8,17 @@ A faire
 
 A faire
 
+* [ ] aller emprunter le [Wisblock RAK11310](https://store.rakwireless.com/products/rak11310-wisblock-lpwan-module) [build file](https://github.com/meshtastic/firmware/blob/master/boards/wiscore_rak11300.json) au fablab.
+
 ## 2025-02-25
 
 A faire
 
+* [x] aller emprunter le [WM1110](https://meshtastic.org/docs/hardware/devices/seeed-studio/wm1110/) au fablab.
+
 ## 2025-02-24
 
 Finition du cahier des charges.
-
-* [ ] aller emprunter le [WM1110](https://meshtastic.org/docs/hardware/devices/seeed-studio/wm1110/) au fablab.
-* [ ] aller emprunter le SenseCAP T1000 au fablab.
 
 ## 2025-02-20
 
