@@ -4,14 +4,18 @@ After the passage of Chido Cyclone over Mayotte, 51 out of 54 mobile network ant
 
 Disaster Networks are communication infrastructures or systems designed to ensure connectivity and critical communications during emergency situations or natural, technological, or human-made disasters. These networks play a vital role in coordinating rescue operations, alerting populations, and restoring communications in heavily disrupted environments.
 
-In this project, you will implement and compare two mesh network technologies with [LoRa endpoints](matos.md) (433 MHz, 868 MHz and 2.4 GHz):
+In this project, you will first compare two mesh network technologies with [LoRa endpoints](matos.md) (433 MHz, 868 MHz and 2.4 GHz):
 
 * [ClusterDuck protocol](https://clusterduckprotocol.org/)
 * [Meshtastic protocol](https://meshtastic.org/)
 
+You will port those mesh technology stack on new [LoRa endpoints](matos.md).
+
+You will also try to implement new message formats such as [Emergency Warning Satellite Services (EWSS)](https://gricad-gitlab.univ-grenoble-alpes.fr/Projets-INFO4/24-25/09/docs/-/blob/main/README.en.md?ref_type=heads) over Meshtastic/LoRa if you have time.
+
 You will also try to implement [Bundle](https://datatracker.ietf.org/doc/rfc9171/) (a DTN protocol) over LoRa if you have time.
 
-Your developments may contribute to both of these open-source communities.
+Your developments may contribute to both of these open-source communities (Meshtastic, RIOT OS ...).
 
 ## Testbeds
 
