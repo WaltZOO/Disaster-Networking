@@ -4,11 +4,13 @@
 
 A faire
 
-## 2025-03-10
+## 2025-03-10 Soutenance mi-parcours
 
 A faire
 
 * [ ] aller emprunter le [Wisblock RAK11310](https://store.rakwireless.com/products/rak11310-wisblock-lpwan-module) [build file](https://github.com/meshtastic/firmware/blob/master/boards/wiscore_rak11300.json) au fablab.
+* [ ] voir https://github.com/EWSS-CAMF/camf/blob/main/README.md
+* [ ] voir https://github.com/thingsat/riot_modules/tree/main/modules/camf
 
 ## 2025-02-25
 
