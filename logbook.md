@@ -1,8 +1,18 @@
 # Projet 18 Disaster Network :: Journal de bord (aka fiche de suivi)
 
 ## 2025-03-11
+A faire : 
 
-A faire
+* [ ] Trouver la documentation des castes à disposition (WIO Wyres, ST Link, T-Beam Supreme, ...)
+ - On a trouver pour la WIO Wyres (mais pas comlète) et la STLink 
+* [x] Faires le cablage pour connecter la Wyres à la STLink 
+* [ ] Trouver le bon IDE pour flasher nos Wyres
+* [ ] Trouver le programme à mettre sur les Wyres
+* [x] Trouver le programme à mettre sur les T-Beam Supreme
+* [ ] Flasher les Wyres
+* [x] Flasher les T-Bean Supreme
+
+
 
 ## 2025-03-10 Soutenance mi-parcours
 
@@ -91,14 +101,5 @@ Prise de connaissance du sujet. Documentation sur Meshtastic et Clusterduck
 
 ## 2025-02-11
 
-A faire : 
 
-* [ ] Trouver la documentation des castes à disposition (WIO Wyres, ST Link, T-Beam Supreme, ...)
- - On a trouver pour la WIO Wyres (mais pas comlète) et la STLink 
-* [x] Faires le cablage pour connecter la Wyres à la STLink 
-* [ ] Trouver le bon IDE pour flasher nos Wyres
-* [ ] Trouver le programme à mettre sur les Wyres
-* [x] Trouver le programme à mettre sur les T-Beam Supreme
-* [ ] Flasher les Wyres
-* [x] Flasher les T-Bean Supreme
 
