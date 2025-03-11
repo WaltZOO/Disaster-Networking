@@ -13,6 +13,7 @@ Consigne: cochez ce que vous avez emprunté
 * [x] [WM1110 dev kit](https://meshtastic.org/docs/hardware/devices/seeed-studio/wm1110/) [build file](https://github.com/meshtastic/firmware/blob/master/boards/wio-tracker-wm1110.json)
 * [ ] [Wisblock RAK11310](https://store.rakwireless.com/products/rak11310-wisblock-lpwan-module) [build file](https://github.com/meshtastic/firmware/blob/master/boards/wiscore_rak11300.json)
 * [ ] [Sensecap T1000](https://www.seeedstudio.com/sensecap-t1000-tracker)
+* [x] [MXchip AZ3166](https://github.com/CampusIoT/tutorial/tree/master/mxchip-az3166)
 * [ ] LoRa gateway Multitech MTCDT
 * [ ] [nRF PPKII](https://github.com/CampusIoT/tutorial/tree/master/nrf-ppk2#readme) (energy monitoring)
 * [ ] Minitel en option (doit rester au fablab)
