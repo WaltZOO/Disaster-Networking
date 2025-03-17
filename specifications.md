@@ -39,7 +39,9 @@ Nous avons pour objectif de mettre en place et comparer deux technologies : le p
 
 Les livrables du projet sont :  
 - **Arbre de décision pour la communication** : critère de choix entre ClusterDuck et Meshtastic.  
-- **Guide de déploiement rapide** : étapes d'installation et de configuration, résultats des tests terrains.  
+- **Guide de déploiement rapide** : étapes d'installation et de configuration, résultats des tests terrains.
+- **Portage du protocole Meshtastic sur de nouvelles cartes** :
+- **Ajout d'un message d'alerte CAMF au [protocole Meshtastic](https://github.com/meshtastic/protobufs/tree/master/meshtastic)** : [Common Alert Message Format (CAMF)](https://github.com/EWSS-CAMF/camf/tree/main)
 
 ---
 
