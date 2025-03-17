@@ -1,4 +1,8 @@
-# Projet 18 Disaster Network :: Journal de bord (aka fiche de suivi)
+# Projet 18 Disaster Network : Journal de bord (aka fiche de suivi)
+
+## 2025-03-17
+A faire: 
+* [ ] FLasher les Wyres
 
 ## 2025-03-11
 A faire : 
