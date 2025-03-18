@@ -1,7 +1,13 @@
-# Test Summary
+# Tests
+On retrouve ici le sommaire pour les fichiers de tests
 
-## Meshtastic
-- test1 : 2 cartes, interieur-exterieur, niveau du sol
-- test2 : 2 cartes, exterieur-exterieur, niveau du sol
-- test3 : 2 cartes, interieur-exterieur, hauteur
-- test4 : 2 cartes, exterieur-exterieur, hauteur
+## Comment sont organisés les fichiers
+Chaque fichier représente tous les tests sur une topologie de réseau précise. \
+Dans chaque fichier, on trouve:
+- Les objectifs de cette topologie
+- Le matériel utilisé
+- Un schéma de la topologie
+- Les scénarios de test
+
+## Correspondance des fichiers
+- test1.md : 2 cartes
