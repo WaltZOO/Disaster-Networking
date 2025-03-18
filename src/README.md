@@ -10,4 +10,4 @@ Dans chaque fichier, on trouve:
 - Les scénarios de test
 
 ## Correspondance des fichiers
-- test1.md : 2 cartes
+- test1.md : Topologie a 2 endpoint LoRa
