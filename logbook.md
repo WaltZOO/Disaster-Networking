@@ -1,5 +1,18 @@
 # Projet 18 Disaster Network : Journal de bord (aka fiche de suivi)
 
+## 2025-03-28
+* [x] finir arbre de decision
+* [x] deseign des test
+* [x] Documentation LoRa dev e5 
+    - carte stm32 non compatible avec Meshtastic (pas assez de mémoire)
+
+## 2025-03-25
+* [x] Carte Wio Tracker WM1110 flashé en tant que relai Meshtastic
+
+## 2025-03-24
+* [x] Carte Heltec Lora 32 flashé en tant que relai Meshtastic
+* [x] Test de portée des T-beam supreme 686 MHz 
+
 ## 2025-03-17
 A faire: 
 * [ ] FLasher les Wyres
