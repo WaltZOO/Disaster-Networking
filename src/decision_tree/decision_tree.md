@@ -37,27 +37,23 @@ graph TD
     SuperficieRuralExt["Superficie à couvrir"]
     SuperficieRuralInt["Superficie à couvrir"]
     SuperficieMontExt["Superficie à couvrir"]
-    SuperficieMontInt["Superficie à couvrir"]
 
     ExtOui --> SuperficieUrbExt
     ExtNon --> SuperficieUrbInt
     HautRuralOui --> SuperficieRuralExt
     HautRuralNon --> SuperficieRuralInt
     HautMontOui --> SuperficieMontExt
-    HautMontNon --> SuperficieMontInt
 
-    TaillePetiteUrbExt{"<'A"}
-    TailleGrandeUrbExt{">=A"}
-    TaillePetiteUrbInt{"<'B"}
-    TailleGrandeUrbInt{">=B"}
-    TaillePetiteRuralExt{"<'C"}
-    TailleGrandeRuralExt{">=C"}
-    TaillePetiteRuralInt{"<'D"}
-    TailleGrandeRuralInt{">=D"}
-    TaillePetiteMontExt{"<'E"}
-    TailleGrandeMontExt{">=E"}
-    TaillePetiteMontInt{"<'F"}
-    TailleGrandeMontInt{">=F"}
+    TaillePetiteUrbExt{"<'7000m²"}
+    TailleGrandeUrbExt{">=7000m²"}
+    TaillePetiteUrbInt{"<'2000m²"}
+    TailleGrandeUrbInt{">=2000m²"}
+    TaillePetiteRuralExt{"<'4.9km²"}
+    TailleGrandeRuralExt{">=4.9km²"}
+    TaillePetiteRuralInt{"<'3.1km²"}
+    TailleGrandeRuralInt{">=3.1km²"}
+    TaillePetiteMontExt{"<'3.1km²"}
+    TailleGrandeMontExt{">=3.1km²"}
 
     SuperficieUrbExt --> TaillePetiteUrbExt
     SuperficieUrbExt --> TailleGrandeUrbExt
@@ -69,8 +65,6 @@ graph TD
     SuperficieRuralInt --> TailleGrandeRuralInt
     SuperficieMontExt --> TaillePetiteMontExt
     SuperficieMontExt --> TailleGrandeMontExt
-    SuperficieMontInt --> TaillePetiteMontInt
-    SuperficieMontInt --> TailleGrandeMontInt
 
     TaillePetiteUrbExt --> Consignes1["consignes_1.txt"]
     TailleGrandeUrbExt --> Consignes2["consignes_2.txt"]
@@ -82,8 +76,7 @@ graph TD
     TailleGrandeRuralInt --> Consignes8["consignes_8.txt"]
     TaillePetiteMontExt --> Consignes9["consignes_9.txt"]
     TailleGrandeMontExt --> Consignes10["consignes_10.txt"]
-    TaillePetiteMontInt --> Consignes11["consignes_11.txt"]
-    TailleGrandeMontInt --> Consignes12["consignes_12.txt"]
+    HautMontNon --> Consignes11["consignes_11.txt"]
 
 
 
