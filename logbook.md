@@ -3,7 +3,7 @@
 ## 2025-04-01
 - Réalisation des tests terrain en montagne avec les T-Beam et Wio Tracker  
 - Mesure de portée, stabilité de la connexion, latence  
-- Enregistrement des résultats dans `docs/tests/tests_montagnieux`
+- Enregistrement des résultats dans `docs/tests/tests_montagneux.md`
 
 ## 2025-03-31
 - Documentation du matériel archivée dans `docs/hardware/`
