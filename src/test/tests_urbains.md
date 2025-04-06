@@ -9,7 +9,6 @@
 
 On utilisera ici des antennes en 433 MHz car elles offrent une meilleure pénétration en milieu dense.
 
-![](images/test)
 
 ## 2. Matériel Utilisé
 - 2x **T-BEAM Supreme** (ESP32 + LoRa)
@@ -27,63 +26,37 @@ Les différents scénarios peuvent êtres trouvés dans le fichier `/src/test/im
 
 Nos 6 tests permettent de tester les critères décris dans la partie objectif.
 
+Tous les tests ont été effectués de la même manière: 2 endpoints communiquent et l'un avance et on note la distance entre les deux au moment où la communication coupe.
+
 Tous les tests ont été effectués 2 fois en mettant les antennes à l'intérieur puis à l'extérieur.
 
+
 ### Premier test
+Dans ce test, la densité d'immeubles est faible et la hauteur moyenne (8m pour le endpoint 1, 1m pour le endpoint 2).
 
-![](images/1er_test.png)
+<img src=images/1er_test.png>
 
+### Deuxième test
+Dans ce test, la densité d'immeubles est moyenne et la hauteur grande (15m pour le endpoint 1, 1m pour le endpoint 2).
 
-### **4.1. Test Intérieur - Intérieur** 
-#### Situation
-- **Résultat attendu** : Forte atténuation du signal due aux murs et aux interférences provenant des appareils électroniques dans un environnement dense.
+<img src=images/2eme_test.png>
 
-#### Résultats
-| Distance maximale de communication | Hauteur | Densité |
-|------------------------------------| --- | --- |
-| Communication dans tout Polytech | au sol | Forte |
-| Communication dans tout Polytech | 3 étages | Très Forte |
+### Troisième test
+Dans ce test, la densité d'immeubles est forte et la hauteur moyenne (8m pour le endpoint 1, 1m pour le endpoint 2).
 
-#### Conclusions
-La densité élevée de murs dans un environnement intérieur réduit la qualité du signal mais la portée est toujours suffisante pour que 2 EndPoints LoRa puissent communiquer au sein d'un même bâtiment.
+<img src=images/3eme_test.png>
 
-### **4.2. Test Intérieur - Extérieur** 
+## Résultats
 
-#### Situation
-- **Hauteur des antennes** : au sol
-- **Densité urbaine** : Modérée 
-- **Résultat attendu** : Atténuation du signal à l'intérieur, mais amélioration à l'extérieur où les obstacles sont moins nombreux.
+|Hauteur|Densité|Extérieur|Distance maximale de communication|
+|-|-|-|-|
+|Moyenne|Faible|NON|200m|
+|Moyenne|Faible|OUI|300m|
+|Grande|Moyenne|NON|150m|
+|Grande|Moyenne|OUI|250m|
+|Moyenne|Forte|NON|50m|
+|Moyenne|Forte|OUI|100m|
 
-#### Résultats
-| Distance maximale de communication |
-|---|
-| 137m |
+## Conclusions
 
-#### Conclusions
-- Le signal est significativement affaibli à l'intérieur en raison des obstacles physiques, mais l'extérieur permet une portée améliorée.
-- Placer l'antenne à l'extérieur est essentiel pour maximiser la portée et la qualité du signal.
-
----
-
-### **4.3. Test Extérieur - Extérieur** 
-
-#### Situation
-- **Résultat attendu** : Meilleure portée grâce à l'élévation des antennes, permettant une meilleure couverture même en présence d'obstacles mineurs.
-
-#### Résultats
-| Distance maximale de communication | Densité | Hauteur |
-|---|---|---|
-| 310 | faible | au sol |
-| 200 | forte | au sol |
-| 310 | faible | 2 étages |
-| 200 | forte | 2 étages |
-
-#### Conclusions
-La portée des communications LoRa est fortement influencée par l’environnement et la hauteur des antennes. Une densité élevée (bâtiments, obstacles) réduit la distance de transmission, tandis qu’un environnement dégagé permet une meilleure propagation du signal. L’élévation des antennes ne suffit pas toujours à améliorer la portée si des obstacles restent présents. Pour optimiser la communication, il est essentiel de privilégier des emplacements dégagés avec une bonne ligne de vue.
-
----
-### Conclusion Générale  
-
-Les tests réalisés montrent que la portée des communications LoRa varie en fonction de l’environnement et de la configuration des antennes. En intérieur, les obstacles tels que les murs et les interférences réduisent la qualité du signal, mais la communication reste possible sur l’ensemble d’un bâtiment. En extérieur, la portée s’améliore considérablement, en particulier lorsque la ligne de vue est dégagée.  
-
-Une densité urbaine élevée diminue la distance de transmission en raison des nombreux obstacles, et l’élévation des antennes ne garantit pas toujours une meilleure portée si des obstacles restent présents sur le trajet du signal. Pour optimiser la communication, il est essentiel de choisir des emplacements stratégiques avec un minimum d’obstructions et, si possible, une ligne de vue directe entre les antennes.  
+Ces tests mettent en évidence les limites pratiques de la technologie LoRa en environnement urbain dense, malgré l'utilisation d’antennes en 433 MHz. On observe une dégradation marquée des performances dans les zones très construites, ce qui souligne l'importance d'adapter l’implantation des nœuds en fonction du terrain. Plutôt que de viser une couverture uniforme, il serait plus pertinent d'envisager une architecture en maillage dense ou l’ajout de relais stratégiques. Cela permettrait de maintenir la fiabilité du réseau même lorsque les conditions ne sont pas idéales, en jouant davantage sur la résilience que sur la portée brute.
