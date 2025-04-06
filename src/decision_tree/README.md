@@ -1,16 +1,13 @@
 # Decision Tree
 
-## Situation 1 : Séisme dans une zone urbaine
-Contexte : Un puissant séisme frappe une grande ville, entraînant des coupures électriques et la destruction partielle des infrastructures réseau (antennes 4G, fibre optique, Internet). Les secours doivent communiquer pour coordonner les opérations de sauvetage.\
+## Fonctionnement
+Ce document est destiné aux installateurs de réseaux de catastrophe pour une zone donnée sur un terrain.
+Les noeuds représentent les variables de décisions qui aident à définir le besoin exact en fonction du terrain.
 
-Problèmes : Réseau LTE indisponible, Wi-Fi HS, mais possibilité d’utiliser LoRa, Mesh ou Satellite.
+Les feuilles de l'arbre indiquent quel fichier de consignes suivre pour installer un réseau garantissant les spécificités suivantes en s'adaptant aux caractéristiques du terrain:
+- Deux endopints peuvent communiquer en cas de mauvais temps
+- Deux endpoints peuvent communiquer si un relais tombe hors service (redondance)
 
-## Situation 2 : Ouragan sur une zone côtière
-Contexte : Un ouragan frappe une région côtière, provoquant des inondations massives et coupant l’accès aux infrastructures réseau traditionnelles.\
-
-Problèmes : Absence d’Internet et d’électricité sur plusieurs jours, besoin de communication longue portée entre secouristes et populations isolées.
-
-## Situation 3 : Panne généralisée d’un opérateur télécom
-Contexte : Un incident majeur touche un opérateur national (cyberattaque, panne électrique, panne logicielle), rendant le réseau LTE/5G inutilisable dans une région entière.\
-
-Problèmes : Accès impossible aux communications mobiles et Internet, mais infrastructures locales (Wi-Fi, Mesh, LoRa) encore utilisables.
+## Utilisation
+L'utilisateur de l'arbre commence à la racine puis, pour chaque noeud, il répond à la question posée et la réponse le fera s'enfoncer un étage plus bas dans l'arbre jusqu'à arriver à une feuille.
+Il ouvre le fichier de consignes correspondant (`src/decision_tree/consignes/`) et suit les consignes pour installer son réseau.
