@@ -66,17 +66,17 @@ graph TD
     SuperficieMontExt --> TaillePetiteMontExt
     SuperficieMontExt --> TailleGrandeMontExt
 
-    TaillePetiteUrbExt --> Consignes1["consignes_1.txt"]
-    TailleGrandeUrbExt --> Consignes2["consignes_2.txt"]
-    TaillePetiteUrbInt --> Consignes3["consignes_3.txt"]
-    TailleGrandeUrbInt --> Consignes4["consignes_4.txt"]
-    TaillePetiteRuralExt --> Consignes5["consignes_5.txt"]
-    TailleGrandeRuralExt --> Consignes6["consignes_6.txt"]
-    TaillePetiteRuralInt --> Consignes7["consignes_7.txt"]
-    TailleGrandeRuralInt --> Consignes8["consignes_8.txt"]
-    TaillePetiteMontExt --> Consignes9["consignes_9.txt"]
-    TailleGrandeMontExt --> Consignes10["consignes_10.txt"]
-    HautMontNon --> Consignes11["consignes_11.txt"]
+    TaillePetiteUrbExt --> Consignes1["consignes_1.md"]
+    TailleGrandeUrbExt --> Consignes2["consignes_2.md"]
+    TaillePetiteUrbInt --> Consignes3["consignes_3.md"]
+    TailleGrandeUrbInt --> Consignes4["consignes_4.md"]
+    TaillePetiteRuralExt --> Consignes5["consignes_5.md"]
+    TailleGrandeRuralExt --> Consignes6["consignes_6.md"]
+    TaillePetiteRuralInt --> Consignes7["consignes_7.md"]
+    TailleGrandeRuralInt --> Consignes8["consignes_8.md"]
+    TaillePetiteMontExt --> Consignes9["consignes_9.md"]
+    TailleGrandeMontExt --> Consignes10["consignes_10.md"]
+    HautMontNon --> Consignes11["consignes_11.md"]
 
 
 
