@@ -1,98 +1,74 @@
 # Projet 18 Disaster Network : Journal de bord (aka fiche de suivi)
 
+## 2025-04-01
+- Réalisation des tests terrain en montagne avec les T-Beam et Wio Tracker  
+- Mesure de portée, stabilité de la connexion, latence  
+- Enregistrement des résultats dans `docs/tests/tests_montagnieux`
+
+## 2025-03-31
+- Documentation du matériel archivée dans `docs/hardware/`
+- Réalisation des tests terrain urbains avec les T-Beam et Wio Tracker  
+
+
 ## 2025-03-28
-* [x] finir arbre de decision
-* [x] deseign des test
-* [x] Documentation LoRa dev e5 
-    - carte stm32 non compatible avec Meshtastic (pas assez de mémoire)
+- Fini l’arbre de décision  
+- Design des tests  
+- Documentation LoRa dev E5  
+- Carte STM32 non compatible avec Meshtastic (pas assez de mémoire) 
+- Début de la rédaction du protocole de tests dans `docs/tests/`
+
 
 ## 2025-03-25
-* [x] Carte Wio Tracker WM1110 flashé en tant que relai Meshtastic
+- Carte Wio Tracker WM1110 flashée en tant que relai Meshtastic  
+- Créé un fichier `docs/documentation/flash/WioWM1110.md` détaillant la procédure de flash  
+- Mis à jour le fichier `matos.md` avec l’état de la carte
+
 
 ## 2025-03-24
-* [x] Carte Heltec Lora 32 flashé en tant que relai Meshtastic
-* [x] Test de portée des T-beam supreme 686 MHz 
+- Carte Heltec Lora 32 flashée en tant que relai Meshtastic  
+- Test de portée des T-Beam Supreme 686 MHz  
+- Enregistré les résultats dans `tests_urbains.md` avec les conditions de test
 
 ## 2025-03-17
-A faire: 
-* [ ] FLasher les Wyres
+- soudage des pin sur les wyres
+- Tentative de flash des Wyres (échec)
 
 ## 2025-03-11
-A faire : 
-
-* [ ] Trouver la documentation des castes à disposition (WIO Wyres, ST Link, T-Beam Supreme, ...)
- - On a trouver pour la WIO Wyres (mais pas comlète) et la STLink 
-* [x] Faires le cablage pour connecter la Wyres à la STLink 
-* [ ] Trouver le bon IDE pour flasher nos Wyres
-* [ ] Trouver le programme à mettre sur les Wyres
-* [x] Trouver le programme à mettre sur les T-Beam Supreme
-* [ ] Flasher les Wyres
-* [x] Flasher les T-Bean Supreme
-
-
+- Debut de la documentation pour les cartes WIO Wyres, STLink
+- Sélectionné l’IDE adapté pour les Wyres  
+- Trouver le firmware meshtastic
+- Flashé les T-Beam Supreme
 
 ## 2025-03-10 Soutenance mi-parcours
-
-A faire
-
-* [ ] aller emprunter le [Wisblock RAK11310](https://store.rakwireless.com/products/rak11310-wisblock-lpwan-module) [build file](https://github.com/meshtastic/firmware/blob/master/boards/wiscore_rak11300.json) au fablab.
-* [ ] voir https://github.com/EWSS-CAMF/camf/blob/main/README.md
-* [ ] voir https://github.com/thingsat/riot_modules/tree/main/modules/camf
+- Débriefing de la soutenance mi-parcours  
+- Revue de l'avancement par rapport au cahier des charges 
+- Ajustement des priorités et du planning pour la suite du projet  
 
 ## 2025-02-25
-
-A faire
-
-* [x] aller emprunter le [WM1110](https://meshtastic.org/docs/hardware/devices/seeed-studio/wm1110/) au fablab.
+- Emprunté le WM1110 au fablab  
+- soudage des pin sur les wyres
 
 ## 2025-02-24
-
 Finition du cahier des charges.
 
 ## 2025-02-20
 
-* [ ] DD --> Team : à lire : [How SenseCAP T1000-E Becomes a Game-Changing Dog Tracker](https://www.etsy.com/fr/listing/1867271135/houdini-m1-traceur-de-chien-open-source?etsrc=sdt)
+* [x] DD --> Team : à lire : [How SenseCAP T1000-E Becomes a Game-Changing Dog Tracker](https://www.etsy.com/fr/listing/1867271135/houdini-m1-traceur-de-chien-open-source?etsrc=sdt)
  
 In the video, Data Slayer showcases the Houdini M1 Dog tracker, a DIY solution designed with SenseCAP T1000-E. It's open-source and free from subscriptions. In a personal story, he shares how losing a dog in the wild led him to create this tracker. Unlike AirTag or GPS collars, the Houdini M1 uses Meshtastic technology for real-time, decentralized tracking—perfect for off-grid adventures. Get your T1000-E on [Seeed's official store](https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html) or Amazon here(10% off coupon code RWL5D6ZS).
 
 
 ## 2025-02-18
-
-Commencement du cahier des charges.
+- Commencé la rédaction du cahier des charges  
+- Mise en place de la structure de dépôt initiale
 
 ## 2025-02-10
+- Réunion de gestion de projet pour définir le livrable  
+- Rédigé `whoiswho.md` avec les rôles  
+- Démarré `cahier_des_charges.md` 
+- Fait l’inventaire du matériel du fablab dans `matos.md` (emprunt depuis https://matos.univ-grenoble-alpes.fr/# )
+- Créé l’arborescence complète du dépôt avec tous les dossiers prévus
 
-Reunion Gestion de Projet pour mieux definir le livrable. 
-
-* [ ] rédiger le [who is who](./whoiswho.md) (et les rôles)
-* [ ] rédiger un pacte d'équipe (~pacte d'associé)
-* [x] rédiger le cahier des charges (markdown bien sur) avec les diagrammes
-* [x] faire le [point matériel récupéré](./matos.md) au fablab (emprunt depuis https://matos.univ-grenoble-alpes.fr/#
-* [ ] créer une structure arborescente de dossiers pour organiser le dépôt
-
-Exemple de structure arborescente
-* [./README.md](./README.md) --> un description et des liens pour naviguer dans la structure
-* [./logbook.md](./logbook.md)
-* [./whoiswho.md](./whoiswho.md)
-* [./CONTRIBUTORS.md](./CONTRIBUTORS.md)
-* [./pacte.md](./pacte.md)
-* [./matos.md](./matos.md)
-* [./LICENSE.md](./LICENSE.md)
-* ./presentations
-* ./presentations/README.md
-* ./presentations/2024-02-10/
-* ./presentations/2024-02-17/
-* ./presentations/2024-03-XX_mid-project/
-* ./presentations/2024-04-XX_final/
-* ./reports
-* ./reports/bib.tex
-* ./reports/bib.md
-* ./docs
-* ./docs/user
-* ./docs/admin
-* ./media
-* ./externals
-* ./sandbox
 
 **Instructions et bonnes pratiques**
 
@@ -113,10 +89,10 @@ Exemple de structure arborescente
 * [Pandoc](https://pandoc.org/) est votre ami
 
 ## 2025-02-03
-
-Prise de connaissance du sujet. Documentation sur Meshtastic et Clusterduck
+- Prise de connaissance du sujet. 
+- Documentation sur Meshtastic et Clusterduck
 
 ## 2025-02-11
-
+- choix du sujet
 
 
