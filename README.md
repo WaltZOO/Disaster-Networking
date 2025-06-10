@@ -1,23 +1,27 @@
-# Projet 18 - Réseau de catastrophe (disaster network) avec LoRa
+# Project 18 - Disaster Networking with LoRa
 
-Après le passage du cyclone Chido sur Mayotte, les 51 antennes sur 54 du réseau mobile ont été rendues hors service, notamment faute de courant, privant ainsi les autorités et la population de communiquer pour organiser les secours.
+After the passage of Chido Cyclone over Mayotte, 51 out of 54 mobile network antennas were rendered inoperable, mainly due to lack of power, thus preventing both the authorities and the population from communicating to organize rescue efforts.
 
-Les Disaster Networks (ou réseaux de communication en cas de catastrophe) sont des infrastructures ou systèmes de communication conçus pour assurer la connectivité et les communications critiques lors de situations d’urgence ou de catastrophes naturelles, technologiques ou humaines. Ces réseaux jouent un rôle vital dans la coordination des secours, l’alerte des populations et le rétablissement des communications dans des environnements fortement perturbés.
+Disaster Networks are communication infrastructures or systems designed to ensure connectivity and critical communications during emergency situations or natural, technological, or human-made disasters. These networks play a vital role in coordinating rescue operations, alerting populations, and restoring communications in heavily disrupted environments.
 
-Dans ce projet, vous mettrez en oeuvre et vous comparerez 2 technologies de réseaux maillés avec des [endpoints LoRa](matos.md) (433 MHz, 868 MHz et 2.4 GHz):
+In this project, you will first compare two mesh network technologies with [LoRa endpoints](matos.md) (433 MHz, 868 MHz and 2.4 GHz):
 
-* le protocole [ClusterDuck](https://clusterduckprotocol.org/)
-* le protocole [Meshtastic](https://meshtastic.org/)
+* [ClusterDuck protocol](https://clusterduckprotocol.org/)
+* [Meshtastic protocol](https://meshtastic.org/)
 
-Vous essayerez d'implémenter le protocole [Bundle](https://datatracker.ietf.org/doc/rfc9171/) (pour les DTN) au dessus de LoRa si vous avez le temps.
+You will port those mesh technology stack on new [LoRa endpoints](matos.md).
 
-Vos développements pourront être contribués à ces deux communautés oepn-source.
+You will also try to implement new message formats such as [Emergency Warning Satellite Services (EWSS)](https://gricad-gitlab.univ-grenoble-alpes.fr/Projets-INFO4/24-25/09/docs/-/blob/main/README.en.md?ref_type=heads) over Meshtastic/LoRa if you have time.
 
-## Tests terrain
+You will also try to implement [Bundle](https://datatracker.ietf.org/doc/rfc9171/) (a DTN protocol) over LoRa if you have time.
 
-Des tests seront réalisés au moyen de ballons captifs gonflés à l'hélium sur le campus de SMH au printemps 2025.
+Your developments may contribute to both of these open-source communities (Meshtastic, RIOT OS ...).
 
-Des tests pourront être également réalisés à bord de ballons stratosphériques du CNES au Printemps 2025 : https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/blob/master/balloons/README.md 
+## Testbeds
 
+Field tests will be conducted using helium-filled tethered balloons on the SMH campus in the spring of 2025.
+
+Field tests may also be conducted aboard [CNES stratospheric balloons](https://gricad-gitlab.univ-grenoble-alpes.fr/thingsat/public/-/blob/master/balloons/README.md) in Spring 2025.
 
 ![Infra 4G de Mayotte](https://air.imag.fr/images/4/42/Cartoradio-mayotte-01.jpg)
+
